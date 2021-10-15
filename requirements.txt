@@ -1,0 +1,9 @@
+mypy # type checking
+pytest # testing framework
+pytest-cov # code coverage
+pytest-sugar # visually appealing test output
+flake8 # linting
+blue # black formatting + less opinionated formatting
+isort # sort import statements
+networkx # graph library
+# matplotlib
