@@ -1,6 +1,6 @@
 # Task Graphs
 
-The purpose of this application is to processs a stream of text containing task execution orders into valid task execution groups.
+The purpose of this application is to process a stream of text containing task execution orders into valid task execution groups.
 
 ## Example
 
