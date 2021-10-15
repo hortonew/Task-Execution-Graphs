@@ -12,10 +12,10 @@ def main():
     # accept stdin: cat test.txt | python main.py
     try:
         process_stream()
-    except TaskException as texception:
-        exit_gracefully(texception)
-    except StreamException as sexception:
-        exit_gracefully(sexception)
+    except TaskException as e:
+        exit_gracefully(e)
+    except StreamException as e:
+        exit_gracefully(e)
     except Exception as e:
         exit_gracefully(e)
 

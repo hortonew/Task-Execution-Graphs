@@ -55,7 +55,7 @@ The developers of this repository use automatic code linting and formatting tool
 
 ## Definitions
 
-A `task execution order` defines all the tasks as nodes, and their dependent nodes in format `Node:NodeDependencyA,NodeDependendyB`.
+A `task execution order` defines all the tasks as nodes, and their dependent nodes in format `Node:NodeDependencyA,NodeDependencyB`.
 
 A `task execution group` is a valid ordering or execution plan that if executed from left to right would result in all dependencies being executed first followed by the nodes that rely on them.
 

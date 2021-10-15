@@ -114,7 +114,7 @@ class TaskGroupBuilder:
         return task_groups
 
     def convert_stream_to_definitions(self) -> List[List[str]]:
-        """Take a stream of text in list format and produce list of task definitons."""
+        """Take a stream of text in list format and produce list of task definitions."""
         in_group = False
         current_group: List[Any] = []
         groups: List[Any] = []
